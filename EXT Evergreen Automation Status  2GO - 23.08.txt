@@ -1,0 +1,177 @@
+From:	automation.infra@finastra.com
+Sent:	Wednesday, August 23, 2023 1:23 PM
+To:	DL-P2GOEG
+Subject:	[EXT] Evergreen Automation Status : 2GO - 23.08
+
+
+Hi All,
+
+
+Please find the attached daily Status report. (You can see details here 
+<https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fu216319
+49.ct.sendgrid.net%2Fls%2Fclick%3Fupn%3DEvyYyK0dgh1RKPKjqwzjbAwScHBUw
+2lzqI7b1-
+2BnN9dcBPCxELNVxCJQIvBaQ3d2wKtYE_uX44Ygx33G1KH4CCgNKxixRSJNgMS0fBc
+xUTos9nEQX35IKeF2jBuY3CWDI7LTwqaVIAnjE9dFbajVzOoSzZKXJ1ixDYtRJi9XoF66
+EaE38uP6pkPeBq9dUzwcyGK3qVVzvB3CKPLUYdlvV9tk4C8u-
+2BVeatGYUo78170yDLCp3zCTuHJGhVpv7TeOIApVNxx3dJLEQG9xi40sewsEC2ItS4H
+KhEBCW5Ahkn9H5eBEJ0-
+3D&data=05%7C01%7CTanmay.Patil%40finastra.com%7Caa3d2fde1a4240d92b43
+08dba3ae09e9%7C0b9b90da3fe1457ab340f1b67e1024fb%7C0%7C0%7C6382837
+41711314527%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoi
+V2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=v%2B
+nNfrXL3NVVdd7jWM2AXvESsnTF4pZfk%2BrnAroZoM0%3D&reserved=0> , 
+credentials: default, 1q2w3e)
+
+P2G_SCHED	 Env Details	  	 Operational KPIs	 Engineering KPIs	 Soap Job	 
+#	 EG Pillar Name	 Env Profile Name	 Owner	 App Server	 Hosted on	 
+Comments	 Operational Execution Rate	 Tickets (non-func DevOps)	 Pass 
+Rate	 Previous Day Pass Rate	 Executed Tests	 Planned Tests	 Total Tests	 
+Maintenance Time	 Label 	Job	 
+1	 2GO_SWIFT	 PRD_EG_4621_2GO01	 Rajendra Joshi	 WLS	 Azure	  	 
+100%	  	 64%	 -	 1329	 1329	 1338	 Not Executed 	2.2.0-alpha_b81	 
+P2GO Team - 2GO_PRD_EG_4621_2GO01	 
+2	 2GO_FED	 PRD_EG_4621_2GO07	 Joshua Behar	 WLS	 Azure	  	 
+100%	  	 98%	 -	 723	 723	 726	 Not Executed 	2.1.0.02_b06	 
+FED_4621_Nightly	 
+3	 2GO_TCH	 PRD_EG_4621_2GO08	 Parikshit Pawar	 WLS	 Azure	  	 
+100%	  	 99%	 -	 1025	 1025	 794	 Not Executed 	2.1.0.02_b06	 
+TCH_4.6.21_Nightly	 
+4	 2GO_SEPA	 PRD_EG_4621_2GO09	 Madhura Bhansali	 WLS	 Azure	  	 
+100%	  	 94%	 -	 340	 340	 340	 Not Executed 	2.2.0-alpha_b81	 
+Sepa_Nightly_4621_2GO09	 
+5	 2GO_SEPA2	 PRD_EG_4621_2GO10	 Madhura Bhansali	 WLS	 Azure	 Tests 
+not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 340	  	 2.1.0-
+alpha_b323	 Sepa_Nightly_4621_2GO010	 
+6	 2GO_SAMOS	 PRD_EG_4621_2GO11	 Madhura Bhansali	 WLS	 Azure	 
+Tests not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 274	 Not Executed 
+	2.2.0-alpha_b81	 SAMOS_4621_Nightly_2GO11	 
+7	 2GO_EURO1	 PRD_EG_4621_2GO12	 Adam Shaikhet	 WLS	 Azure	  
+	 100%	  	 14%	 -	 368	 368	 170	 Not Executed 	2.2.0-
+alpha_b81	 PRD_EG_4621_2GO12_EURO1	 
+8	 2GO_TIPS	 PRD_EG_4621_2GO13	 Parikshit Pawar	 WLS	 Azure	  	 
+100%	  	 99%	 -	 596	 596	 536	 Not Executed 	2.1.0.02_b06	 
+TIPS_EG_4.6.21	 
+9	 2GO_SADC_SWIFT	 PRD_EG_4621_2GO16	 Madhura Bhansali	 WLS	 
+Azure	 Tests not reflected at Report Portal	 Pipeline Failed/Absent	  	 
+Pipeline Failed/Absent	 -	 Pipeline Failed/Absent	 -	 84	 Not 
+Executed 	4.6.20.09.SAAS.17.13_b08	 SADC_SWIFT_4621_Nightly	 
+10	 2GO_UI	 P2G_EG_4621_2GO02	 Braha Ulano	 WLS	 Azure	  	 
+100%	  	 98%	 -	 648	 648	 649	  	 2.1.0.02_b06	 
+JUNIT_4.6.21_P2G_EG_4621_2GO02	 
+11	 2GO_UPLOAD	 P2G_EG_4621_2GO03	 Braha Ulano	 WLS	 Azure	  
+	 100%	  	 96%	 -	 25	 25	 25	  	 2.1.0.02_b06	 
+SOAP_P2G_4.6.21_P2G_EG_4621_2GO03	 
+12	 2GO_TARGET2	 P2G_EG_100A_2GO01	 Adam Shaikhet	 WLS	 Azure	 
+Tests not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 156	 Not Executed 
+	2.2.0-alpha_b72	 P2G_EG_100A_2GO01_Target2	 
+13	 2GO_FEDNOW	 P2G_EG_4621_2GO05	 Pratik Katkamwar	 WLS	 Azure	  
+	 100%	  	 72%	 -	 292	 292	 306	 Not Executed 	2.2.0-
+alpha_b81	 FEDNOW_EG_SCHED	 
+14	 2GO_BANCO_SCD	 P2G_EG_200A_2GO15	 AHUVI KLARISTENFELD	 WLS	 
+Azure	  	 100%	  	 57%	 -	 256	 256	 227	 Not Executed 	2.2.0-
+alpha_b81	 P2G_EG_200A_2GO15_Target2_SCD_Banco	 
+
+P2GO2.0	 Env Details	  	 Operational KPIs	 Engineering KPIs	 Soap Job	 
+#	 EG Pillar Name	 Env Profile Name	 Owner	 App Server	 Hosted on	 
+Comments	 Operational Execution Rate	 Tickets (non-func DevOps)	 Pass 
+Rate	 Previous Day Pass Rate	 Executed Tests	 Planned Tests	 Total Tests	 
+Maintenance Time	 Label 	Job	 
+1	 P2G_UPLOADS	 P2G_EG_200A_2GO06	 Bracha Ulano	 WLS	 Azure	  
+	 100%	  	 100%	 -	 25	 25	 25	 Not Executed 
+	2.0.0.04.02_b05	 P2G_UPLOADS_FREEZE	 
+2	 P2G_TIPS	 P2G_EG_200A_2GO07	 Parikshit Pawar	 WLS	 Azure	  	 
+100%	  	 100%	 -	 522	 522	 521	 Not Executed 	2.0.0.04.02_b05	 
+TIPS_EG_P2G_2.0	 
+3	 P2G_TCH	 P2G_EG_200A_2GO03	 Parikshit Pawar	 WLS	 Azure	  	 
+100%	  	 99%	 -	 879	 879	 881	 Not Executed 	2.0.0.04.02_b05	 
+TCH_EG_P2G_2.0	 
+4	 P2G_SWIFT	 P2G_EG_200A_2GO02	 Rajendra Joshi	 WLS	 Azure	  	 
+100%	  	 98%	 -	 1329	 1329	 1320	  	 2.1.0.02_b06	 
+2GO_SWIFT_P2G_EG_200A_2GO02	 
+5	 P2G_FED	 P2G_EG_200A_2GO05	 Dikla Nudelman	 WLS	 Azure	 Tests 
+not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 700	 Not Executed 
+	2.0.0.04.02_b05	 FED_P2G_FREEZE	 
+6	 P2G_UI	 P2G_EG_200A_2GO04	 Pramod Gunjote	 WLS	 Azure	  	 
+100%	  	 0%	 -	 14	 14	 656	  	 2.0.0.04.02_b05	 
+JUNIT_4.6.21_P2G_EG_200A_2GO04	 
+7	 P2G_BANCO	 P2G_EG_200A_2GO14	 AHUVI KLARISTENFELD	 WLS	 
+Azure	  	 100%	  	 96%	 -	 256	 256	 227	 Not Executed 
+	2.1.0.02_b06	 P2G_EG_200A_2GO14_Target2_FRZ_Banco	 
+8	 P2G_SWIFT2	 P2G_EG_200A_2GO13	 Vijay Thombre	 WLS	 Azure	  
+	 100%	  	 98%	 -	 1330	 1330	 1320	 Not Executed 
+	2.0.0.04.02_b05	 P2GO Team - 2GO_SWIFT_P2G_EG_200A_2GO13	 
+
+4.6.20	 Env Details	  	 Operational KPIs	 Engineering KPIs	 Soap Job	 
+#	 EG Pillar Name	 Env Profile Name	 Owner	 App Server	 Hosted on	 
+Comments	 Operational Execution Rate	 Tickets (non-func DevOps)	 Pass 
+Rate	 Previous Day Pass Rate	 Executed Tests	 Planned Tests	 Total Tests	 
+Maintenance Time	 Label	 Job	 
+1	 2GO_SADC_SWIFT	 PRD_EG_4620_2GO10	 Madhura Bhansali	 WLS	 
+Azure	 Tests not reflected at Report Portal	 Pipeline Failed/Absent	  	 
+Pipeline Failed/Absent	 -	 Pipeline Failed/Absent	 -	 84	 Not 
+Executed 	4.6.20.09.SAAS_b08	 SADC_SWIFT_4620_Nightly	 
+2	 2GO_SAMOS	 PRD_EG_4620_2GO13	 Madhura Bhansali	 WLS	 Azure	  
+	 100%	  	 95%	 -	 329	 329	 274	 Not Executed 
+	4.6.20.09.SAAS.17.13_b08	 SAMOS_4620_Nightly	 
+3	 2GO_SWIFT2	 PRD_EG_4620_2GO03	 Rajendra Joshi	 WLS	 Azure	 
+Tests not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 472	 Not Executed 
+	4.6.20.09.SAAS.19_b07	 P2GO Team - 2GO_PRD_EG_4620_2GO03	 
+4	 2GO_UI	 P2G_EG_4620_2GO01	 Braha Ulano	 WLS	 Azure	  	 
+100%	  	 0%	 -	 10	 10	 453	  	 4.6.20.09.SAAS.17.09_b01	 
+JUNIT_4.6.20_P2G_EG_4620_2GO01	 
+5	 2GO_RPP	 PRD_EG_4620_2GO11	 Parikshit Pawar	 WLS	 Azure	  	 
+100%	  	 96%	 -	 279	 279	 268	 Not Executed 
+	4.6.20.09.SAAS.17.13_b08	 RPP_SAAS_4.6.20	 
+6	 2GO_US1	 PRD_EG_4620_2GO07	 Rajendra Joshi	 WLS	 Azure	 Tests 
+not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 1335	 Not Executed 
+	4.6.19.20.SAAS.33_b04	 P2GO Team - 2GO_PRD_EG_4620_2GO07	 
+7	 2GO_CBPR	 P2G_EG_FREEZE01	 Rajendra Joshi	 WLS	 Azure	 Tests 
+not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 350	 Not Executed 
+	4.6.20.09.SAAS.17.13_b08	 P2G_EG_FREEZE01_CBPR_Nightly	 
+
+4.6.19	 Env Details	  	 Operational KPIs	 Engineering KPIs	 Soap Job	 
+#	 EG Pillar Name	 Env Profile Name	 Owner	 App Server	 Hosted on	 
+Comments	 Operational Execution Rate	 Tickets (non-func DevOps)	 Pass 
+Rate	 Previous Day Pass Rate	 Executed Tests	 Planned Tests	 Total Tests	 
+Maintenance Time	 Label	 Job	 
+1	 2GO_SWIFT	 PRD_EG_4619_2GO01	 Rajendra Joshi	 WLS	 Azure	  	 
+100%	  	 97%	 -	 1329	 1329	 1338	 Not Executed 
+	4.6.19.20.SAAS.27_b51	 P2GO Team - 2GO_SWIFT_PRD_EG_4619_2GO01	 
+2	 2GO_TCH	 PRD_EG_4619_2GO05	 Hanit Rubinovich	 WLS	 Azure	 Tests 
+not reflected at Report Portal	 Pipeline Failed/Absent	  	 Pipeline 
+Failed/Absent	 -	 Pipeline Failed/Absent	 -	 794	 Not Executed 
+	4.6.19.20.SAAS.33_b04	 TCH_4.6.19_Nightly	 
+3	 2GO_FED	 PRD_EG_4619_2GO06	 Hanit Rubinovich	 WLS	 Azure	  	 
+100%	  	 100%	 -	 723	 723	 784	 Not Executed 
+	4.6.19.20.SAAS.33_b04	 FED_4619_Nightly	 
+4	 2GO_UI_SAAS	 PRD_EG_4619_2GO07	 Braha Ulano	 WLS	 Azure	  
+	 100%	  	 86%	 -	 428	 428	 393	  	 4.6.19.20.SAAS.33_b04	 
+JUNIT_4.6.19_PRD_EG_4619_2GO07	 
+
+
+
+
+JIRA REPORT:-
+
+Key	 Components	 Summary	 Due	 Status	 Resolution	 Created	 
+Fix Version/s	 Severity	 Found in	 Reporter	 Defect Classification	 
+Labels	 
+
+
+Thanks and Regards
+
+Inframater
+
+ <https://u21631949.ct.sendgrid.net/wf/open?upn=XxV7Y1TOulw-2FD5RGmsn-
+2BDWbgUztnka3R6D4HB6Vfn-2FLvJehof3bMoi1R0vx9CSENh6qzaRq-
+2BWpHORw0XeFzDQeUyJTtGz4Gzu6707tdBLUj1uR64-
+2BkH4JDb2sXujjvEPquWiRVLHqrt7wxUNyiS5pZ61eV6BtXaH30JiqgcCyIZoAtsqzJ3q
+CrAOKSWEa2teO8inkza7KUZ3306PwEViVGn8epYVW-2F41pV1ojxS1V9Q-3D> 

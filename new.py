@@ -17,10 +17,4 @@ ws['A2'] = datetime.datetime.now()
 
 # Save the file
 wb.save("sample.xlsx")
-readFile()
-
-def readFile():
-   with open('sample.txt') as reader:
-      for line in reader :
-        print(line)
 
