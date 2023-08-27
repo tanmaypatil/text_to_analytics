@@ -1,4 +1,4 @@
-from fileRead import findMarker,checkPacks,getPackInfo
+from fileRead import findMarker,isPackPresentInReport,getPackInfo,readAllPacksStats
 from packs import packs
 # Execute pytest like Shell
 # python -m pytest test_file.py
@@ -15,7 +15,7 @@ def test_checkPackPresence():
     
 def test_checkPackFound():
     line = '''1	 2GO_SWIFT	 PRD_EG_4621_2GO01	 Rajendra Joshi	 WLS	 Azure	  	 100%	  	 64%	 -	 1329	 1329	 1338	 Not Executed 	2.2.0-alpha_b81'''
-    result = checkPacks(packs,line)
+    result = isPackPresentInReport(packs,line)
     assert result == 'found'
     
 def test_checkPackInfo():
@@ -23,3 +23,11 @@ def test_checkPackInfo():
     result = getPackInfo(packs,line)
     assert result["packName"] == '2GO_SWIFT'
     assert result['passPcnt'] == '64%'
+
+# check if total 14 packs are configured   
+def test_pack_config():
+    assert len(packs) == 14
+    
+def test_read_allpacks():
+    allPacks = readAllPacksStats('EXT Evergreen Automation Status  2GO - 23.08.txt','P2G_SCHED')
+    assert len(allPacks) == 14
