@@ -9,7 +9,8 @@ def createWorkSheet(wb,name):
     ws = wb.create_sheet(name)
     ws.title = name
     return ws
-    
+
+# create xls with tabular data.    
 def  addData( headers, rows,wsName ,xlName):
     wb = createWorkBook(xlName)
     ws = createWorkSheet(wb,wsName)

@@ -1,4 +1,4 @@
-from fileRead import findMarker,isPackPresentInReport,getPackInfo,readAllPacksStats
+from fileRead import findMarker,isPackPresentInReport,getPackInfo,readAllPacksStats,isThisLeadingRow
 from packs import packs
 from xlsUtil import *
 # Execute pytest like Shell
@@ -33,6 +33,10 @@ def test_read_allpacks():
     allPacks = readAllPacksStats('EXT Evergreen Automation Status  2GO - 23.08.txt','P2G_SCHED')
     assert len(allPacks) == 14
     
+def test_leading_row():
+    line = '1	 2GO_SWIFT	 PRD_EG_4621_2GO01	 Rajendra Joshi	 WLS	 Azure'
+    ans = isThisLeadingRow(line)
+    assert ans[1] == '1'
 
 def test_create_xls():
     heading = ["Type", "Leaf Color", "Height"]

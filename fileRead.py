@@ -65,8 +65,17 @@ def readAllPacksStats(fileName : str,marker : str):
           # If you find all packs , return
           if ( len(packs) == packsCount):
             break 
-    
     return allPacks
+  
+  
+def isThisLeadingRow(line : str)-> list:
+  pattern = '^([1-9]*).*2GO.*'
+  match = re.search(pattern,line)
+  if(match):
+        return [True,match.group(1)]
+  else :
+        return [False,-1]
+     
 
        
                
