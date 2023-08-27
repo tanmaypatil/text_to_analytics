@@ -1,5 +1,6 @@
 from fileRead import findMarker,isPackPresentInReport,getPackInfo,readAllPacksStats
 from packs import packs
+from xlsUtil import *
 # Execute pytest like Shell
 # python -m pytest test_file.py
 
@@ -31,3 +32,9 @@ def test_pack_config():
 def test_read_allpacks():
     allPacks = readAllPacksStats('EXT Evergreen Automation Status  2GO - 23.08.txt','P2G_SCHED')
     assert len(allPacks) == 14
+    
+
+def test_create_xls():
+    heading = ["Type", "Leaf Color", "Height"]
+    data = [["Maple", "Red", 549], ["Oak", "Green", 783], ["Pine", "Green", 1204]]
+    addData(heading,data,"wsname","sample2.xlsx")

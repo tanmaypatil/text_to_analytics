@@ -13,10 +13,8 @@ def createWorkSheet(wb,name):
 def  addData( headers, rows,wsName ,xlName):
     wb = createWorkBook(xlName)
     ws = createWorkSheet(wb,wsName)
-    xlsData = []
-    xlsData.append(headers)
-    xlsData.append(rows)
-    for row in xlsData:
+    ws.append(headers)
+    for row in rows:
         ws.append(row)
     wb.save(xlName)
     
